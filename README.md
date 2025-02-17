@@ -38,19 +38,19 @@ NextRace is an Android application that fetches and displays a list of upcoming 
 ## 📸 Screenshots
 
 ### No Internet State
-<img src="screenshots/1.png" alt="Alt Text" width="300" height="200">
+<img src="screenshots/1.png" alt="Alt Text" width="200" height="300">
 
 ### Applied Filter
-<img src="screenshots/2.png" alt="Alt Text" width="300" height="200">
+<img src="screenshots/2.png" alt="Alt Text" width="200" height="300">
 
 ### Dark Mode No Filter
-<img src="screenshots/3.png" alt="Alt Text" width="300" height="200">
+<img src="screenshots/3.png" alt="Alt Text" width="200" height="300">
 
 ### Accessibility
-<img src="screenshots/4.png" alt="Alt Text" width="300" height="200">
+<img src="screenshots/4.png" alt="Alt Text" width="200" height="300">
 
 ### Light State
-<img src="screenshots/5.png" alt="Alt Text" width="300" height="200">
+<img src="screenshots/5.png" alt="Alt Text" width="200" height="300">
 
 ## 🌍 API Details
 - **Endpoint Used:**
