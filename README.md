@@ -38,19 +38,19 @@ NextRace is an Android application that fetches and displays a list of upcoming 
 ## 📸 Screenshots
 
 ### No Internet State
-![Light Mode](screenshots/1.png)
+<img src="screenshots/1.png" alt="Alt Text" width="300" height="200">
 
 ### Applied Filter
-![Dark Mode](screenshots/2.png)
+<img src="screenshots/2.png" alt="Alt Text" width="300" height="200">
 
 ### Dark Mode No Filter
-![Shimmer Loading](screenshots/3.png)
+<img src="screenshots/3.png" alt="Alt Text" width="300" height="200">
 
 ### Accessibility
-![No Internet](screenshots/4.png)
+<img src="screenshots/4.png" alt="Alt Text" width="300" height="200">
 
 ### Light State
-![Filter](screenshots/5.png)
+<img src="screenshots/5.png" alt="Alt Text" width="300" height="200">
 
 ## 🌍 API Details
 - **Endpoint Used:**
@@ -66,14 +66,6 @@ NextRace is an Android application that fetches and displays a list of upcoming 
 - When fetching with a count of `10`, sometimes the API returns all races from the same category.
 - To ensure a diverse set of 5 races, I increased the request count from `10` to `30`.
 
-## 📸 Screenshots
-| Light Mode | Dark Mode |
-|-----------|-----------|
-| ![Light Mode](screenshots/1.jpeg) | ![Dark Mode](screenshots/2.jpeg) |
-| Shimmer Loading | No Internet State |
-| ![Shimmer](screenshots/3.jpeg) | ![No Internet](screenshots/4.jpeg) |
-| Filter Applied | Race List Updated |
-| ![Filter](screenshots/5.jpeg) |
 
 ## 🏗️ Architecture
 The project follows a **Clean Architecture** with **MVVM (Model-View-ViewModel)**:
