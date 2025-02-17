@@ -37,19 +37,19 @@ NextRace is an Android application that fetches and displays a list of upcoming 
 
 ## 📸 Screenshots
 
-### Light Mode
+### No Internet State
 ![Light Mode](screenshots/1.png)
 
-### Accessibility
+### Applied Filter
 ![Dark Mode](screenshots/2.png)
 
-### Dark Mode
+### Dark Mode No Filter
 ![Shimmer Loading](screenshots/3.png)
 
-### Applied Filter
+### Accessibility
 ![No Internet](screenshots/4.png)
 
-### No Internet State
+### Light State
 ![Filter](screenshots/5.png)
 
 ## 🌍 API Details
@@ -110,7 +110,7 @@ The project is automated with **GitHub Actions** and **Fastlane**:
   ```
 - **Spotless**: Code formatting and style enforcement
   ```sh
-  ./gradlew spotlessCheck && ./gradlew spotlessApply
+  ./gradlew spotlessCheck || ./gradlew spotlessApply
   ```
 
 ## 🔥 Decision Making & Assumptions
@@ -136,8 +136,8 @@ The UI and functionality were influenced by:
 ## 🔧 Setup & Run
 1️⃣ **Clone the Repository:**
 ```sh
-git clone https://github.com/yourgithub/nextracer.git
-cd nextracer
+git clone https://github.com/Nelzz/EntainTest.git
+cd EntainTest
 ```
 
 2️⃣ **Open in Android Studio**
@@ -152,6 +152,9 @@ cd nextracer
 4️⃣ **Run Unit Tests**
 ```sh
 ./gradlew testDebugUnitTest
+```
+or 
+```sh
 fastlane test
 ```
 
