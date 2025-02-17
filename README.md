@@ -38,19 +38,19 @@ NextRace is an Android application that fetches and displays a list of upcoming 
 ## 📸 Screenshots
 
 ### No Internet State
-<img src="screenshots/1.png" alt="Alt Text" width="200" height="300">
+<img src="screenshots/1.png" alt="Alt Text" width="200" height="320">
 
 ### Applied Filter
-<img src="screenshots/2.png" alt="Alt Text" width="200" height="300">
+<img src="screenshots/2.png" alt="Alt Text" width="200" height="320">
 
 ### Dark Mode No Filter
-<img src="screenshots/3.png" alt="Alt Text" width="200" height="300">
+<img src="screenshots/3.png" alt="Alt Text" width="200" height="320">
 
 ### Accessibility
-<img src="screenshots/4.png" alt="Alt Text" width="200" height="300">
+<img src="screenshots/4.png" alt="Alt Text" width="200" height="320">
 
 ### Light State
-<img src="screenshots/5.png" alt="Alt Text" width="200" height="300">
+<img src="screenshots/5.png" alt="Alt Text" width="200" height="320">
 
 ## 🌍 API Details
 - **Endpoint Used:**
@@ -110,6 +110,10 @@ The project is automated with **GitHub Actions** and **Fastlane**:
 The UI and functionality were influenced by:
 - **[Neds.com.au](https://www.neds.com.au/)** (as referenced in the PDF)
 - **TAB NZ**
+
+### **Auto Refresh**
+- To ensure the latest race information is always available, the auto-fetch interval is set to **5 seconds**.
+- **Potential Improvement:** The interval can be dynamically configured using **Firebase Remote Config** or a **CI/CD environment variable**, allowing adjustments without requiring an app update.
 
 ### **Filter Selection Reset**
 - Since this is a sports betting app, users must always see the latest race information.
